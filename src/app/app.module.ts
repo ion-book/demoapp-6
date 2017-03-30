@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { View1Component } from './view1/view1.component';
 import { View2Component } from './view2/view2.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     View1Component,
     View2Component,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,
