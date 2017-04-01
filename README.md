@@ -1,28 +1,28 @@
-# AngularRouting
+# Demoapp5
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.4.
+Este App muestra el codigo uso de Routing.
+
+[Slides](https://docs.google.com/presentation/d/1altcV7hw5Hl3jY6WEz1OlX21UDZaLRQVfmPAzl1fVBU/edit?usp=sharing)
 
 ## Development server
+Ejecuta `ng serve` para desarrollo en tu maquina. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ir a `http://localhost:4200/` en Chrome. El app se recargara automaticamente en cada cambio.
 
-## Code scaffolding
+## Generadores
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+Ejecuta `ng generate component component-name` para generar un componente.
+
+Tambien puedes usar `ng generate directive/pipe/service/class/module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Ejecuta `ng build` para construir un proyecto.
 
-## Running unit tests
+Usa `-prod` flag para un build para Produccion.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Enviando a GitHub Pages
 
-## Running end-to-end tests
+Instala `npm -i -g angular-cli-ghpages` y prepara tu build `ng build --prod --base-href "https://USERNAME.github.io/REPO"` [Paso a Paso](http://aniri.ro/geek/development/how-to-host-an-angular2-app-on-github-pages-using-angular-cli/)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Ejecuta `angular-cli-ghpages` para enviar a GitHub Pages.
