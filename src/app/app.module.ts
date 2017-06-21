@@ -9,10 +9,6 @@ import { View1Component } from './view1/view1.component';
 import { View2Component } from './view2/view2.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ArticleComponent } from './article/article.component';
-import { SongSearchComponent } from './song-search/song-search.component';
-import { SongDetailComponent } from './song-detail/song-detail.component';
-
-import { SpotifyService } from './spotify.service';
 
 
 @NgModule({
@@ -22,8 +18,7 @@ import { SpotifyService } from './spotify.service';
     View2Component,
     PageNotFoundComponent,
     ArticleComponent,
-    SongSearchComponent,
-    SongDetailComponent
+
   ],
   imports: [
     BrowserModule,
@@ -31,7 +26,7 @@ import { SpotifyService } from './spotify.service';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [SpotifyService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
